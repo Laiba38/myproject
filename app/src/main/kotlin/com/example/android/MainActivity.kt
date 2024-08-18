@@ -138,8 +138,8 @@ fun SkillsItem(innerPadding: PaddingValues) {
                 .fillMaxWidth()
         )
 
-        LazyRow(
-            horizontalArrangement = Arrangement.spacedBy(16.dp),
+        LazyColumn(
+          verticalArrangement = Arrangement.spacedBy(16.dp),
 
             modifier = Modifier
                 .fillMaxWidth()
